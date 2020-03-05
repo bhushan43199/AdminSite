@@ -265,34 +265,41 @@
         <a href="index.html" class="logo">The Corporate <span>Connection</span></a>
     </div>
     <div class="menu">
-        <ul class="list">
-           <li>
-              <div class="user-info">
-                 <a class="image" href="profile.html"><img src="assets/images/profile_av.jpg" alt="User"></a>
-                 <div class="detail">
-                    <h4>Michael</h4>
-                    <small>Super Admin</small>                        
-                 </div>
-              </div>
-           </li>
-           <li class="active open"><a href="index.html"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
-           <li><a href="mail-inbox.html"><i class="zmdi zmdi-email"></i><span>Email</span></a></li>
-           <!-- <li><a href="chat.html"><i class="zmdi zmdi-whatsapp"></i><span>Chat Apps</span></a></li> -->
-           <li><a href="events.html"><i class="zmdi zmdi-calendar"></i><span>Calendar</span></a></li>
-           <li>
-              <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-assignment"></i><span>Projects</span></a>
-              <ul class="ml-menu">
-                 <li ><a href="venue-info.html">Venue Provider</a></li>
-                 <li ><a href="Supplier-info.html">Supplier</a></li>
-                 <li ><a href="Admin-info.html">Admins</a></li>
-                 <li ><a href="Users-info.html">Users</a></li>
-              </ul>
-           </li>
-           <li><a href="image-gallery.html"><i class="zmdi zmdi-collection-image"></i><span>Image Gallery</span></a></li>
-           <li><a href="profile.html"><i class="zmdi zmdi-mood"></i><span>Profile</span></a></li>
-           <li><a href="timeline.html"><i class="zmdi zmdi-time"></i><span>Timeline</span></a></li>
-        </ul>
-     </div>
+      <ul class="list">
+         <li>
+            <div class="user-info">
+               <a class="image" href="profile.html"><img src="assets/images/profile_av.jpg" alt="User"></a>
+               <div class="detail">
+                  <h4>Michael</h4>
+                  <small>Admin</small>                        
+               </div>
+            </div>
+         </li>
+         <li class="active open"><a href="index.html"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
+         <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-email"></i><span>Projects</span></a>
+         <ul class="ml-menu">
+            <li ><a href="venue-inbox.html">Venue Provider</a></li>
+            <!-- <li ><a href="bead-supplier-inbox.html">Supplier</a></li> -->
+            <!-- <li ><a href="Admin-info.html">Admins</a></li> -->
+            <li ><a href="user-inbox.html">Users</a></li>
+         </ul>
+      </li>
+         <!-- <li><a href="chat.html"><i class="zmdi zmdi-whatsapp"></i><span>Chat Apps</span></a></li> -->
+         <li><a href="events.html"><i class="zmdi zmdi-calendar"></i><span>Calendar</span></a></li>
+         <li>
+            <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-assignment"></i><span>Contact Us</span></a>
+            <ul class="ml-menu">
+               <li ><a href="venue-info.html">Venue Provider</a></li>
+               <!-- <li ><a href="Supplier-info.html">Supplier</a></li> -->
+               <li ><a href="Admin-info.html">Admins</a></li>
+               <li ><a href="user-inbox.html">Users</a></li>
+            </ul>
+         </li>
+         <!-- <li><a href="image-gallery.html"><i class="zmdi zmdi-collection-image"></i><span>Image Gallery</span></a></li> -->
+         <li><a href="profile.html"><i class="zmdi zmdi-mood"></i><span>Profile</span></a></li>
+         <li><a href="timeline.html"><i class="zmdi zmdi-time"></i><span>Timeline</span></a></li>
+      </ul>
+   </div>
 </aside>
 
       <!-- Right Sidebar -->
@@ -494,13 +501,15 @@
                                     <li><a href="javascript:void(0);"><i class="zmdi zmdi-alert-circle"></i>Spam<span class="badge badge-warning">6</span></a></li>
                                     <li><a href="javascript:void(0);"><i class="zmdi zmdi-delete"></i>Trash<span class="badge badge-danger">9</span></a></li>
                                 </ul>
-                                <h3 class="label">Labels</h3>
+                                <h3 class="label">Contact Us</h3>
                                 <ul class="nav">
-                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-danger"></i>UI Project<span class="badge badge-primary">5</span></a></li>
-                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-info"></i>Marketing</a></li>
-                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-dark"></i>Payout</a></li>
-                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-primary"></i>Meeting</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-primary"></i>Admins</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-danger"></i>Venue providers</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-info"></i>Suppliers</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-dark"></i>Users</a></li>
+                                    <!-- <span class="badge badge-primary">5</span> -->
                                 </ul>
+                               
                             </div>
                         </div>
                         <div class="inbox right">
@@ -515,14 +524,14 @@
                                         <a href="javascript:void(0);" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-archive"></i></a>
                                         <a href="javascript:void(0);" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-delete"></i></a>
                                     </div>
-                                    <div class="btn-group">
+                                    <!-- <div class="btn-group">
                                         <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Labels</button>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="javascript:void(0);">UI Project</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Venue Provider contact</a>
                                             <a class="dropdown-item" href="javascript:void(0);">Marketing</a>
                                             <a class="dropdown-item" href="javascript:void(0);">Payout</a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="btn-group">
                                         <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
                                         <div class="dropdown-menu">
@@ -556,7 +565,7 @@
                                         <td class="u_image"><img src="assets/images/xs/avatar1.jpg" alt="user" class="rounded" width="30"></td>
                                         <td class="u_name"><h5 class="font-15 mt-0 mb-0">Maryam Amiri</h6></td>
                                         <td class="max_ellipsis">
-                                            <a class="link" href="mail-single.html">
+                                            <a class="link" href="mail-single-venue.html">
                                                 <span class="badge badge-primary mr-2">Work</span>
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                             </a>
